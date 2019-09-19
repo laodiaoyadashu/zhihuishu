@@ -55,7 +55,7 @@ class BrushClass():    # 刷课英文咋说？Brush?
         self.select_video()
 
     def select_video(self):
-        # time.sleep(10)
+        time.sleep(10)
         courses = self.driver.find_elements_by_xpath(
             "//div[@id='sharingClassed']//ul")
 
