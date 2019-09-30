@@ -73,7 +73,7 @@ class BrushClass():    # 刷课英文咋说？Brush?
         courses[int(course_id) - 1].click()
 
         print("课程页面打开成功，正在获取详细视频信息...")
-        # time.sleep(5)
+        time.sleep(5)
 
         print("开始关闭智慧树警告页面！")
         # 先关闭智慧树警告页面
